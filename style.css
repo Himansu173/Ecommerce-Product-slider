@@ -7,8 +7,9 @@ body {
     position: absolute;
     height: 72vh;
     width: 34vw;
-    margin-left: 17vw;
-    margin-top: 6vh;
+    /*margin-left: 17vw;
+    margin-top: 6vh;*/
+    box-size: contain;
     border-radius: 10px;
     overflow: hidden;
 }
