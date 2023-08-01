@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    padding-top: 2vh;
+}
+
+.view {
+    position: absolute;
+    height: 72vh;
+    width: 34vw;
+    margin-left: 17vw;
+    margin-top: 6vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.preview {
+    position: absolute;
+    height: auto;
+    width: 4vw;
+    margin-left: 11vw;
+    object-fit: cover;
+
+}
+
+.preview img{
+    object-fit: cover;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+.preview:hover :not(.preview img:hover){
+    opacity: 0.3;
+}
+
+.view{
+    background-color: whitesmoke;
+}
+
+.discription {
+    position: absolute;
+    height: 75vh;
+    width: 30vw;
+    margin-left: 52vw;
+    padding: 3vh;
+}
+
+h2,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 2px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.686);
+}
+
+#size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+#size p {
+    cursor: pointer;
+}
+
+#sizeNo {
+    margin: 0.5rem 0 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sizeNo button {
+    font-weight: 700;
+    border-radius: 50px;
+    height: 2.6rem;
+    width: 6.7rem;
+    margin: 0.6rem;
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.242);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#sizeNo button:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.677);
+    scale: 0.99;
+}
+
+#sizeNo button:active{
+    background-color: whitesmoke;
+}
+
+#btn {
+    display: grid;
+    margin-top: 1rem;
+}
+
+#btn button {
+    height: 3rem;
+    border-radius: 30px;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.1s;
+    border:1px solid black;
+}
+
+#btn button:active{
+    scale: 0.99;
+}
+
+#cart {
+    background-color: black;
+    color: white;
+}
+
+#wishlist {
+    background-color: transparent;
+}
