@@ -5,10 +5,10 @@ body {
 
 .view {
     position: absolute;
-    box-size: contain;
     width: 34vw;
     margin-left: 17vw;
     margin-top: 6vh;
+    box-sizing: contain;
     border-radius: 10px;
     overflow: hidden;
 }
