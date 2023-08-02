@@ -5,7 +5,7 @@ body {
 
 .view {
     position: absolute;
-    height: 72vh;
+    box-size: contain;
     width: 34vw;
     margin-left: 17vw;
     margin-top: 6vh;
